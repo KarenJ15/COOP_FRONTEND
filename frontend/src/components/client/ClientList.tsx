@@ -125,13 +125,19 @@ export const ClientList = () => {
                 </table>
 
                 <ReactPaginate
-                  className="pagination "
+                  activeClassName="page-item active"                
+                  pageLinkClassName="page-link"
+                  containerClassName="pagination"
+                  previousLinkClassName="page-link"
+                  nextLinkClassName="page-link"
+                  previousClassName="page-item"
+                  nextClassName="page-item"
                   breakLabel="..."
-                  nextLabel="siguiente >"
-                  onPageChange={handlePageClick}
-                  pageRangeDisplayed={5}
+                  nextLabel=">>"
+                  pageClassName="page-item"
+                  onPageChange={handlePageClick}                  
                   pageCount={pageCount}
-                  previousLabel="< anterior" />
+                  previousLabel="<<"/>
 
             </div>            
         </div>

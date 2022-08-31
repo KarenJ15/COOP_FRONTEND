@@ -136,7 +136,7 @@ export const TravelForm = () => {
             />
             <br />
               <div className="btn-group" role="group">                
-                <Link to={"/exercises"} className="btn btn-primary">
+                <Link to={"/travels/"} className="btn btn-primary">
                     <FaArrowLeft /> Volver
                 </Link>
                 <button type="button" onClick={saveTravel} className="btn btn-success">
@@ -147,5 +147,4 @@ export const TravelForm = () => {
           </div>        
       </div>        
     );
-
 }

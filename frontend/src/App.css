@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+
+.spacer {
+  flex-grow: 1;
+}
+
+#logout{
+  position: absolute;
+  right: 25px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
